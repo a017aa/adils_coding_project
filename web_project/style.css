@@ -166,6 +166,7 @@ footer a{
     .heading{
         min-width: 100vw;
         justify-content: flex-start;
+        padding: 18px 5px;
     }
 
     .heading h1{
@@ -173,14 +174,22 @@ footer a{
     }
 
     .content{
-        padding: 0 5px;
         justify-content: center;
         flex-direction: column;
         gap: 0;
     }
 
+    .article{
+        padding: 0 5px;
+    }
+
+    .aside{
+        padding: 8px 5px;
+    }
+
     .footercontent{
         min-width: 100vw;
+        padding: 24px 5px;
     }
 
     .column{
