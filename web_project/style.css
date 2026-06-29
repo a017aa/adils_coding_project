@@ -55,7 +55,7 @@
     justify-content: space-around;
     margin: 0 auto;
     padding: 24px;
-    min-width: 1692px;
+    min-width: 100%;
     background-color: #e0f0fa;
 }
 
@@ -96,7 +96,7 @@ footer{
     align-items: center;
     margin: 20px 0;
     max-height: 24px;
-    min-width: 970px;
+   width: 970px;
     color: #b3d4ed;
 }
 
@@ -156,6 +156,7 @@ footer a{
         padding: 0 5px;
         justify-content: flex-start;
         min-height: 57px;
+        min-width: 100vw
     }
 
     .links{
@@ -163,8 +164,12 @@ footer a{
     }
 
     .heading{
-        min-width: 100vh;
+        min-width: 100vw;
         justify-content: flex-start;
+    }
+
+    .heading h1{
+        width: 100%;
     }
 
     .content{
@@ -180,5 +185,9 @@ footer a{
 
     .column{
         flex-direction: column;
+    }
+
+    p br{
+        display: none;
     }
 }
